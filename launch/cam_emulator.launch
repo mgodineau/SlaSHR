@@ -1,0 +1,6 @@
+<launch>
+	<arg name="video_path" default="$(find slashr)/videos/frog.mp4" />
+	<node pkg="slashr" type="cam_emulator.py" name="cam_emulator" output="screen">
+		<param name="video_path" value="$(arg video_path)"/>
+	</node>
+</launch>
