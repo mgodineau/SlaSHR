@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="slashr" type="cam_logger.py" name="cam_logger" output="screen">
+	</node>
+</launch>
